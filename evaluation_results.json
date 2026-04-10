@@ -1,0 +1,272 @@
+[
+  {
+    "question": "What is a transformer and how does it work?",
+    "answer": "A Transformer is based on the encoder-decoder architecture, which consists of two components: \n1. The Encoder: Converts an input sequence of tokens into a sequence of embedding vectors, often called the hidden state or context.\n2. The Decoder: Uses the encoder's hidden state to iteratively generate an output sequence of tokens, one token at a time.\n\nThis architecture is widely used for tasks like machine translation. (Source: BERT.pdf, page 17)",
+    "sources": [
+      {
+        "file": "BERT.pdf",
+        "page": 17
+      },
+      {
+        "file": "Making Transformers Efficient in Production.pdf",
+        "page": 0
+      },
+      {
+        "file": "BERT.pdf",
+        "page": 0
+      },
+      {
+        "file": "BERT.pdf",
+        "page": 1
+      },
+      {
+        "file": "BERT.pdf",
+        "page": 3
+      }
+    ],
+    "time_seconds": 0.502
+  },
+  {
+    "question": "Explain the self-attention mechanism.",
+    "answer": "The self-attention mechanism is a process that allows neural networks to assign a different amount of weight or \"attention\" to each element in a sequence. In the context of text sequences, this means assigning weights to token embeddings, such as the 768-dimensional vectors used in BERT. The \"self\" part of self-attention refers to the fact that these weights are computed for all hidden states in the same set, like the encoder hidden states. (Source: BERT.pdf, page 26)",
+    "sources": [
+      {
+        "file": "BERT.pdf",
+        "page": 9
+      },
+      {
+        "file": "BERT.pdf",
+        "page": 28
+      },
+      {
+        "file": "BERT.pdf",
+        "page": 11
+      },
+      {
+        "file": "BERT.pdf",
+        "page": 8
+      },
+      {
+        "file": "BERT.pdf",
+        "page": 26
+      }
+    ],
+    "time_seconds": 0.55
+  },
+  {
+    "question": "What is the difference between BERT and GPT?",
+    "answer": "The main difference between BERT and GPT is their pretraining objectives. BERT is pretrained on masked language modeling, where the model predicts the most likely candidates for masked words (Source: BERT.pdf, page 16). In contrast, GPT is pretrained by predicting the next word based on the previous ones (Source: BERT.pdf, page 67). This difference in pretraining objectives allows BERT to be more suitable for NLU tasks, while GPT is more suitable for NLG tasks.",
+    "sources": [
+      {
+        "file": "BERT.pdf",
+        "page": 74
+      },
+      {
+        "file": "BERT.pdf",
+        "page": 16
+      },
+      {
+        "file": "BERT.pdf",
+        "page": 68
+      },
+      {
+        "file": "BERT.pdf",
+        "page": 67
+      },
+      {
+        "file": "BERT.pdf",
+        "page": 60
+      }
+    ],
+    "time_seconds": 0.442
+  },
+  {
+    "question": "What is Named Entity Recognition (NER)?",
+    "answer": "Named Entity Recognition (NER) is the task of extracting named entities, such as real-world objects like products, places, and people, from text. It is also defined as detecting names, dates, and organizations. (Source: BERT.pdf, page 50 and 2.pdf, page 14)",
+    "sources": [
+      {
+        "file": "BERT.pdf",
+        "page": 50
+      },
+      {
+        "file": "2.pdf",
+        "page": 14
+      },
+      {
+        "file": "2.pdf",
+        "page": 9
+      },
+      {
+        "file": "BERT.pdf",
+        "page": 20
+      },
+      {
+        "file": "2.pdf",
+        "page": 16
+      }
+    ],
+    "time_seconds": 0.312
+  },
+  {
+    "question": "How does knowledge distillation make transformers more efficient?",
+    "answer": "Knowledge distillation is one of the techniques used to make transformers more efficient. It is mentioned as a method to make models smaller (Source: Making Transformers Efficient in Production.pdf, page 8). However, the exact details of how it improves efficiency are not provided in the given context. \n\nIt can be inferred that knowledge distillation helps in reducing the model size, which in turn can lead to faster predictions and reduced memory footprint, as mentioned on page 1. But the specific mechanism of how knowledge distillation achieves this is not explicitly stated in the provided lecture slides.",
+    "sources": [
+      {
+        "file": "Making Transformers Efficient in Production.pdf",
+        "page": 14
+      },
+      {
+        "file": "Making Transformers Efficient in Production.pdf",
+        "page": 8
+      },
+      {
+        "file": "Making Transformers Efficient in Production.pdf",
+        "page": 0
+      },
+      {
+        "file": "Making Transformers Efficient in Production.pdf",
+        "page": 17
+      },
+      {
+        "file": "Making Transformers Efficient in Production.pdf",
+        "page": 1
+      }
+    ],
+    "time_seconds": 0.697
+  },
+  {
+    "question": "What is a vector database and why is it used?",
+    "answer": "A vector database is a type of database that operates on vectors, storing and querying data in a way that's different from traditional databases (Source: Vector Database.pdf, page 9). It's used to find similar vectors based on a similarity metric, rather than exact matches, and is optimized for Approximate Nearest Neighbor (ANN) search (Source: Vector Database.pdf, page 9). The exact definition and purpose of a vector database are not explicitly stated in the provided context, but it's implied that it's used for efficient and accurate retrieval of similar vectors (Source: Vector Database.pdf, pages 9-11).",
+    "sources": [
+      {
+        "file": "Vector Database.pdf",
+        "page": 4
+      },
+      {
+        "file": "Vector Database.pdf",
+        "page": 9
+      },
+      {
+        "file": "Vector Database.pdf",
+        "page": 10
+      },
+      {
+        "file": "Vector Database.pdf",
+        "page": 11
+      },
+      {
+        "file": "Vector Database.pdf",
+        "page": 5
+      }
+    ],
+    "time_seconds": 0.488
+  },
+  {
+    "question": "Explain Retrieval Augmented Generation (RAG).",
+    "answer": "Retrieval-Augmented Generation (RAG) is mentioned in the context of vector databases, but its definition is not explicitly provided. However, according to the lecture slides (Vector Database.pdf, pages 2 and 75), RAG applications rely on vector databases for efficient storage and retrieval of embeddings, and the selection of the right vector database is crucial for maximizing RAG performance. \n\nUnfortunately, a detailed explanation of RAG is not provided in the given context. This topic is not fully covered in the provided lecture slides.",
+    "sources": [
+      {
+        "file": "Vector Database.pdf",
+        "page": 2
+      },
+      {
+        "file": "Vector Database.pdf",
+        "page": 2
+      },
+      {
+        "file": "Vector Database.pdf",
+        "page": 75
+      },
+      {
+        "file": "3.pdf",
+        "page": 8
+      },
+      {
+        "file": "6_Vector_Apr18_2021.pdf",
+        "page": 30
+      }
+    ],
+    "time_seconds": 0.508
+  },
+  {
+    "question": "What are the main components of a convolutional neural network?",
+    "answer": "The main components of a convolutional neural network include: \n\n1. Convolutional layers (or convolutional base) that learn spatial hierarchies of patterns (Source: Deep Learning for Computer Vision.pdf, page 0)\n2. Pooling layers \n3. A fully-connected layer (also known as a densely connected classifier) at the end (Source: Convolutional Neural Networks.pdf, page 0 and Deep Learning for Computer Vision.pdf, page 1)\n\nNote that the provided context does not explicitly mention pooling layers, but it is implied in the description of the convolutional base (Source: Deep Learning for Computer Vision.pdf, page 1).",
+    "sources": [
+      {
+        "file": "Deep Learning for Computer Vision.pdf",
+        "page": 1
+      },
+      {
+        "file": "Convolutional Neural Networks.pdf",
+        "page": 0
+      },
+      {
+        "file": "Convolutional Neural Networks.pdf",
+        "page": 0
+      },
+      {
+        "file": "Deep Learning for Computer Vision.pdf",
+        "page": 0
+      },
+      {
+        "file": "Convolutional Neural Networks.pdf",
+        "page": 0
+      }
+    ],
+    "time_seconds": 0.536
+  },
+  {
+    "question": "What is fine-tuning in the context of LLMs?",
+    "answer": "Fine-tuning is mentioned in the context of ULMFiT, along with pretraining and domain adaptation. However, the provided context does not explicitly define fine-tuning. (Source: BERT.pdf, page 15) \n\nThis topic is not covered in detail in the provided lecture slides.",
+    "sources": [
+      {
+        "file": "BERT.pdf",
+        "page": 15
+      },
+      {
+        "file": "3_LM_Jan_08_2021.pdf",
+        "page": 58
+      },
+      {
+        "file": "3_LM_Jan_08_2021.pdf",
+        "page": 67
+      },
+      {
+        "file": "3_LM_Jan_08_2021.pdf",
+        "page": 43
+      },
+      {
+        "file": "2_EditDistance_Jan_08_2020.pdf",
+        "page": 26
+      }
+    ],
+    "time_seconds": 0.292
+  },
+  {
+    "question": "What is the role of positional encoding in transformers?",
+    "answer": "The role of positional encoding in transformers is to inject information about token positions into the input to model the sequential nature of text, as the attention mechanism is not aware of the relative positions of the tokens. This is done by combining token embeddings with positional embeddings that contain positional information for each token. (Source: BERT.pdf, page 19)",
+    "sources": [
+      {
+        "file": "BERT.pdf",
+        "page": 17
+      },
+      {
+        "file": "BERT.pdf",
+        "page": 19
+      },
+      {
+        "file": "BERT.pdf",
+        "page": 42
+      },
+      {
+        "file": "BERT.pdf",
+        "page": 55
+      },
+      {
+        "file": "BERT.pdf",
+        "page": 38
+      }
+    ],
+    "time_seconds": 0.267
+  }
+]

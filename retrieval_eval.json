@@ -1,0 +1,253 @@
+{
+  "metrics": {
+    "Recall@1": 1.0,
+    "Recall@3": 1.0,
+    "Recall@5": 1.0,
+    "Recall@10": 1.0,
+    "MRR": 1.0
+  },
+  "per_question": [
+    {
+      "question": "What is a transformer and how does it work?",
+      "gold": [
+        "BERT.pdf"
+      ],
+      "retrieved_top5": [
+        "BERT.pdf",
+        "Making Transformers Efficient in Production.pdf",
+        "BERT.pdf",
+        "BERT.pdf",
+        "BERT.pdf"
+      ],
+      "reciprocal_rank": 1.0
+    },
+    {
+      "question": "Explain the self-attention mechanism.",
+      "gold": [
+        "BERT.pdf"
+      ],
+      "retrieved_top5": [
+        "BERT.pdf",
+        "BERT.pdf",
+        "BERT.pdf",
+        "BERT.pdf",
+        "BERT.pdf"
+      ],
+      "reciprocal_rank": 1.0
+    },
+    {
+      "question": "What is the difference between BERT and GPT?",
+      "gold": [
+        "BERT.pdf"
+      ],
+      "retrieved_top5": [
+        "BERT.pdf",
+        "BERT.pdf",
+        "BERT.pdf",
+        "BERT.pdf",
+        "BERT.pdf"
+      ],
+      "reciprocal_rank": 1.0
+    },
+    {
+      "question": "What is masked language modeling?",
+      "gold": [
+        "BERT.pdf"
+      ],
+      "retrieved_top5": [
+        "BERT.pdf",
+        "BERT.pdf",
+        "3_LM_Jan_08_2021.pdf",
+        "BERT.pdf",
+        "3.pdf"
+      ],
+      "reciprocal_rank": 1.0
+    },
+    {
+      "question": "What is positional encoding in transformers?",
+      "gold": [
+        "BERT.pdf"
+      ],
+      "retrieved_top5": [
+        "BERT.pdf",
+        "BERT.pdf",
+        "BERT.pdf",
+        "BERT.pdf",
+        "BERT.pdf"
+      ],
+      "reciprocal_rank": 1.0
+    },
+    {
+      "question": "What is Named Entity Recognition?",
+      "gold": [
+        "BERT.pdf"
+      ],
+      "retrieved_top5": [
+        "BERT.pdf",
+        "2.pdf",
+        "3.pdf",
+        "6_Vector_Apr18_2021.pdf",
+        "2_TextProc_Mar_25_2021.pdf"
+      ],
+      "reciprocal_rank": 1.0
+    },
+    {
+      "question": "How does knowledge distillation work?",
+      "gold": [
+        "Making Transformers Efficient in Production.pdf"
+      ],
+      "retrieved_top5": [
+        "Making Transformers Efficient in Production.pdf",
+        "Making Transformers Efficient in Production.pdf",
+        "Making Transformers Efficient in Production.pdf",
+        "Making Transformers Efficient in Production.pdf",
+        "Making Transformers Efficient in Production.pdf"
+      ],
+      "reciprocal_rank": 1.0
+    },
+    {
+      "question": "What is model quantization?",
+      "gold": [
+        "Making Transformers Efficient in Production.pdf"
+      ],
+      "retrieved_top5": [
+        "Making Transformers Efficient in Production.pdf",
+        "Making Transformers Efficient in Production.pdf",
+        "Making Transformers Efficient in Production.pdf",
+        "Making Transformers Efficient in Production.pdf",
+        "Making Transformers Efficient in Production.pdf"
+      ],
+      "reciprocal_rank": 1.0
+    },
+    {
+      "question": "What is pruning in neural networks?",
+      "gold": [
+        "Making Transformers Efficient in Production.pdf"
+      ],
+      "retrieved_top5": [
+        "Making Transformers Efficient in Production.pdf",
+        "Making Transformers Efficient in Production.pdf",
+        "Neural Network, Back-Propagation.pdf",
+        "Neural Network, Back-Propagation.pdf",
+        "Convolutional Neural Networks.pdf"
+      ],
+      "reciprocal_rank": 1.0
+    },
+    {
+      "question": "What is a vector database?",
+      "gold": [
+        "6_Vector_Apr18_2021.pdf",
+        "Vector Database.pdf"
+      ],
+      "retrieved_top5": [
+        "Vector Database.pdf",
+        "Vector Database.pdf",
+        "Vector Database.pdf",
+        "Vector Database.pdf",
+        "Vector Database.pdf"
+      ],
+      "reciprocal_rank": 1.0
+    },
+    {
+      "question": "What is approximate nearest neighbor search?",
+      "gold": [
+        "Vector Database.pdf"
+      ],
+      "retrieved_top5": [
+        "Vector Database.pdf",
+        "Vector Database.pdf",
+        "Vector Database.pdf",
+        "Vector Database.pdf",
+        "Vector Database.pdf"
+      ],
+      "reciprocal_rank": 1.0
+    },
+    {
+      "question": "What are the main layers of a CNN?",
+      "gold": [
+        "Convolutional Neural Networks.pdf",
+        "Deep Learning for Computer Vision.pdf"
+      ],
+      "retrieved_top5": [
+        "Convolutional Neural Networks.pdf",
+        "Deep Learning for Computer Vision.pdf",
+        "Convolutional Neural Networks.pdf",
+        "BERT.pdf",
+        "BERT.pdf"
+      ],
+      "reciprocal_rank": 1.0
+    },
+    {
+      "question": "What is a convolution operation?",
+      "gold": [
+        "Convolutional Neural Networks.pdf",
+        "Deep Learning for Computer Vision.pdf"
+      ],
+      "retrieved_top5": [
+        "Convolutional Neural Networks.pdf",
+        "Deep Learning for Computer Vision.pdf",
+        "Convolutional Neural Networks.pdf",
+        "Convolutional Neural Networks.pdf",
+        "Deep Learning for Computer Vision.pdf"
+      ],
+      "reciprocal_rank": 1.0
+    },
+    {
+      "question": "What is backpropagation in neural networks?",
+      "gold": [
+        "Neural Network, Back-Propagation.pdf"
+      ],
+      "retrieved_top5": [
+        "Neural Network, Back-Propagation.pdf",
+        "Neural Network, Back-Propagation.pdf",
+        "Neural Network, Back-Propagation.pdf",
+        "Neural Network, Back-Propagation.pdf",
+        "Neural Network, Back-Propagation.pdf"
+      ],
+      "reciprocal_rank": 1.0
+    },
+    {
+      "question": "What is an n-gram language model?",
+      "gold": [
+        "3_LM_Jan_08_2021.pdf"
+      ],
+      "retrieved_top5": [
+        "3_LM_Jan_08_2021.pdf",
+        "3.pdf",
+        "3_LM_Jan_08_2021.pdf",
+        "3_LM_Jan_08_2021.pdf",
+        "3_LM_Jan_08_2021.pdf"
+      ],
+      "reciprocal_rank": 1.0
+    },
+    {
+      "question": "What is edit distance?",
+      "gold": [
+        "2_EditDistance_Jan_08_2020.pdf"
+      ],
+      "retrieved_top5": [
+        "2_EditDistance_Jan_08_2020.pdf",
+        "2_EditDistance_Jan_08_2020.pdf",
+        "2_EditDistance_Jan_08_2020.pdf",
+        "2_EditDistance_Jan_08_2020.pdf",
+        "2_EditDistance_Jan_08_2020.pdf"
+      ],
+      "reciprocal_rank": 1.0
+    },
+    {
+      "question": "What are tf-idf and word embeddings?",
+      "gold": [
+        "6_Vector_Apr18_2021.pdf",
+        "6.pdf"
+      ],
+      "retrieved_top5": [
+        "6_Vector_Apr18_2021.pdf",
+        "6_Vector_Apr18_2021.pdf",
+        "6_Vector_Apr18_2021.pdf",
+        "6.pdf",
+        "6_Vector_Apr18_2021.pdf"
+      ],
+      "reciprocal_rank": 1.0
+    }
+  ]
+}
